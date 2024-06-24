@@ -1,0 +1,101 @@
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.subscription-widget {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 340px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.subscription-option {
+    margin-bottom: 20px;
+}
+
+.option-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.option-title {
+    font-weight: bold;
+}
+
+.save-amount {
+    background-color: #fbd02c;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.option-details {
+    margin-left: 20px;
+}
+
+.ships-every-month {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 10px 0;
+}
+
+.benefits-title {
+    font-size: 12px;
+    color: #888;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.subscription-benefits ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subscription-benefits li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.subscription-benefits input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    border: 2px solid #fbd02c;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #111;
+}
